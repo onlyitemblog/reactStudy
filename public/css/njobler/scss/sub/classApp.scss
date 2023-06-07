@@ -1,0 +1,84 @@
+//상세페이지 크리에이터 소개 new 버전
+/* PC분기점 */
+main{ 
+    .wrap{
+        .classBox{ 
+            .classLeft{ 
+                .contentBox{  
+                    .content{  letter-spacing: -0.02em;
+                        
+                        /* 상품상세 공통 폰트  */
+                        .ft14{font-size: 14px;}
+                        .ft16{font-size: 16px;}
+                        .ft18{font-size: 18px;}
+                        .ft20{font-size: 20px;}
+                        .ft22{font-size: 22px;}
+                        .ft24{font-size: 24px;}
+                        .ft25{font-size: 25px;}
+                        .ft27{font-size: 27px;}
+                        .ft29{font-size: 29px;}
+                        .ft35{font-size: 35px;}
+                        .ft36{font-size: 36px;}
+                        .ft37{font-size: 37px;}
+                        
+                        /*상품상세 마진값 */
+                        .mt10{margin-top: 10px;}
+                        .mt20{margin-top: 20px;}
+                        .mt30{margin-top: 30px;}
+                        .mt40{margin-top: 40px;}
+                        .mt60{margin-top: 60px;}
+                        .mt80{margin-top: 80px;}
+                        .mt100{margin-top: 100px;}
+
+                        /*색상코드*/
+                        .colorGray{color:#7a7a7a;}
+                        @include mobile{
+                            .momt2{margin-top: 2%;}
+                            hr{margin:3% 0;}
+                            .embed-container{margin:3% 0;}
+                            .ft14{font-size:2vw;}
+                            .ft16{font-size:2vw;}
+                            .ft18{font-size:2.3vw;}
+                            .ft20{font-size:2.6vw;}
+                            .ft22{font-size:3vw;}
+                            .ft24{font-size:3.1vw;}
+                            .ft25{font-size:3.15vw;}
+                            .ft27{font-size:3.5vw;}
+                            .ft29{font-size:3.7vw;}
+                            .ft35{font-size:4.6vw;}
+                            .ft36{font-size:4.7vw;}
+                            .ft37{font-size:4.8vw;}
+
+                            .mt10{margin-top: 2%;}
+                            .mt20{margin-top: 4%;}
+                            .mt30{margin-top: 6%;}
+                            .mt40{margin-top: 8%;}
+                            .mt60{margin-top: 12%;}
+                            .mt80{margin-top: 16%;}
+                            .mt100{margin-top: 20%;}
+                        }    
+                        @include w500{                            
+                            .ft14{font-size:2.9vw;}
+                            .ft16{font-size:3vw;}
+                            .ft18{font-size:3.8vw;}
+                            .ft20{font-size:4vw;}
+                            .ft22{font-size:4.2vw;}
+                            .ft24{font-size:4.4vw;}
+                            .ft25{font-size:4.25vw;}
+                            .ft27{font-size:4.5vw;}
+                            .ft29{font-size:4.7vw;}
+                            .ft35{font-size:5vw;}
+                            .ft36{font-size:5.1vw;}
+                            .ft37{font-size:5.2vw;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
